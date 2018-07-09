@@ -1,0 +1,28 @@
+footer {
+    .footer-subscribe {
+        text-align: center;
+        input {
+            padding: 5px 15px;
+        }
+        button {
+            padding: 5px 15px;
+        }
+    }
+    .footer-row {
+        text-align: center;
+        margin: 50px 0;
+        ul {
+            display: inline-block;
+            li {
+                list-style: none;
+                display: inline-block;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .copyright {
+        text-align: center;
+    }
+}
