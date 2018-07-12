@@ -30,7 +30,7 @@ footer .footer-subscribe button {
 
 footer .footer-row {
   text-align: center;
-  margin: 50px 0;
+  margin: 50px 0 20px;
 }
 
 footer .footer-row ul {
@@ -48,6 +48,58 @@ footer .footer-row ul li a {
 
 footer .copyright {
   text-align: center;
+  padding: 8px 0;
+}
+
+.home-hero {
+  height: 500px;
+  background: blue;
+  margin: -80px 0 50px;
+}
+
+.home-hero .home-text {
+  padding: 150px 100px;
+}
+
+.home-hero .home-text button:hover {
+  cursor: pointer;
+}
+
+.home-products {
+  margin-bottom: 50px;
+  padding: 0 100px;
+}
+
+.home-products .popular-products {
+  text-align: center;
+}
+
+.home-products .popular-products .img-container {
+  display: inline-block;
+}
+
+.home-products .popular-products .img-container figure {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.home-products .categories .category-grid {
+  background: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px 150px;
+  border: 2px solid white;
+}
+
+.home-blog {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 0 100px;
+}
+
+.home-blog .blog-item {
+  display: inline-block;
+  width: 49%;
 }
 
 /*!

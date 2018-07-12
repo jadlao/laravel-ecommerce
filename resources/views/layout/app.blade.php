@@ -13,10 +13,10 @@
       <div class="wrapper">
         <a class="logo" href="/">Fashion E-commerce</a>
             <nav class="header-nav">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Shop</a>
-                <a href="#">Contact</a>
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/shop">Shop</a>
+                <a href="/contact">Contact</a>
             @guest
                 <a href="/register">Register</a>
                 <a href="/login">Login</a>
@@ -32,7 +32,7 @@
                     {{ csrf_field() }}
                 </form>
                 @endguest
-                <a class="cart" href="#">Cart</a>
+                <a class="cart" href="/cart">Cart</a>
             </nav>
       </div>
     </header>
@@ -43,7 +43,7 @@
     {{--  Footer  --}}
     <footer>
       <div class="footer-subscribe">
-        <h4>Subscribe to our newsletter</h4>
+        <h4>Subscribe</h4>
         <input type="text" />
         <button type="submit">Subscribe</button>
       </div>
